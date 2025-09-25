@@ -14,3 +14,5 @@ git clone https://github.com/ArizNodes/DiscordVPSBOT_Deploye
 cd vps-generator-bot
 pip install -r requirements.txt
 python bot.py
+
+Or If Python bot.py not Works use Python3b bot.py!
