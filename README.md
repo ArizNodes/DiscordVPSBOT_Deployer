@@ -11,7 +11,7 @@ Supports **default OS from `.env`**, **admin/owner permissions**, and **Docker**
 Clone the repo, install requirements, set up `.env`, and run:
 
 ```bash
-git clone https://github.com/yourusername/vps-generator-bot.git
+git clone https://github.com/ArizNodes/DiscordVPSBOT_Deployer
 cd vps-generator-bot
 pip install -r requirements.txt
 python bot.py
@@ -24,13 +24,15 @@ python bot.py
 python3 bot.py
 
 ```
-# Copyright and Terms and policy | Do Not Copy Files !
+# © Copyright and Terms and policy | Do Not Copy Files !
 
 Do Not Copy any files or Upload any files without our Discord Server Owners Permssion Discord ID - Vasplayz90
 
 Dont Change or Upload this files on any 3rd party Website or Simply Copyright in Youtube ! 
 
 Use Permssion To use or edit this all files! 
+# Updates 🚨 | Annoncementt
 
-# Thank You have a Nice Day ahead! 
-Read Our Terms.md files also 
+New Update! | More Cmds are adding in the bot Coming Soon! For Some | Hint! We are adding ipv4 VPS | 
+
+# Thank You Everyone one have a Nice day ahead
