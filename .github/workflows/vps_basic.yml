@@ -1,0 +1,20 @@
+name: VPS Basic
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install tmate
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y tmate
+
+      - name: Start tmate session
+        run: |
+          tmate -S /tmp/tmate.sock new-session -d
+          tmate -S /tmp/tmate.sock wait tmate-ready
+          echo "SSH: $(tmate -S /tmp/tmate.sock display -p '#{tmate_ssh}')" >> $GITHUB_STEP_SUMMARY
+          echo "Web: $(tmate -S /tmp/tmate.sock display -p '#{tmate_web}')" >> $GITHUB_STEP_SUMMARY
